@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096230204225",
+    "project_id": "redbullapp-4c57e",
+    "storage_bucket": "redbullapp-4c57e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096230204225:android:757b8e1de68aed364de7c0",
+        "android_client_info": {
+          "package_name": "com.example.redbullticaretprojesi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWPUVd43iPhcc-0vTnKVyNifnUtP2cFgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

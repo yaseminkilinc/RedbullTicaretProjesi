@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAtletler"
+    android:background="@drawable/gecisliarkaplan2">
+
+    <Button
+        android:id="@+id/buttonGeriAtletler"
+        android:layout_width="196dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="42dp"
+        android:text="Anasayfa"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="743dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="165dp"
+        android:layout_height="167dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="265dp"
+        app:srcCompat="@drawable/toprakrazgatlioglu" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="178dp"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginBottom="423dp"
+        app:srcCompat="@drawable/kubradagli" />
+
+    <TextView
+        android:id="@+id/toprakrAtlet"
+        android:layout_width="156dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="225dp"
+        android:text="Toprak Razgatlıoğlu"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/kubraDagliAtlet"
+        android:layout_width="146dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="342dp"
+        android:text="Kübra Dağlı"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="171dp"
+        android:layout_height="195dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="148dp"
+        app:srcCompat="@drawable/denizoncu" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="171dp"
+        android:layout_height="175dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="154dp"
+        app:srcCompat="@drawable/handebaladin" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="172dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="111dp"
+        android:text="Deniz Öncü"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="112dp"
+        android:text="Hande Baladin"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityUrunler"
+    android:background="@drawable/gecisliarkaplann3">
+
+    <Button
+        android:id="@+id/buttonGeriUrunler"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="9dp"
+        android:text="Anasayfa"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="739dp" />
+
+    <ImageButton
+        android:id="@+id/sepet"
+        android:layout_width="84dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="Sepet Button"
+        app:srcCompat="@drawable/baseline_business_center_24" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="188dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="12dp"
+        android:text="Giriş Yap"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="111dp"
+        android:layout_height="186dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="256dp"
+        app:srcCompat="@drawable/redbulenerjicecegi" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="198dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/redbulwinter1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="115dp"
+        android:layout_height="196dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="146dp"
+        app:srcCompat="@drawable/whiteedition" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="104dp"
+        android:layout_height="188dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="153dp"
+        app:srcCompat="@drawable/yellowedition" />
+
+    <TextView
+        android:id="@+id/enerjiicecegi"
+        android:layout_width="170dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="359dp"
+        android:text="Enerji İçeceği"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/winteredition"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="352dp"
+        android:text="Winter Edition"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/YellowEdition"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="91dp"
+        android:text="Yellow Edition"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/whitediton"
+        android:layout_width="129dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="95dp"
+        android:text="White Edition"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
